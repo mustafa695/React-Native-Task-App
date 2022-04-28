@@ -6,7 +6,6 @@ import {onCahngeCheckBox, removeTodo} from '../store/action';
 
 const List = ({todo, setTitle, setEdited, setEdtInd}) => {
   const dispatch = useDispatch();
-
   const editTodo = ind => {
     setEdited(true);
     setEdtInd(ind);

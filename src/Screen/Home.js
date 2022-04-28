@@ -50,7 +50,7 @@ const Home = () => {
           </Text>
         </TouchableOpacity>
       </View>
-      {/* List of todo */}
+      {/* List of Task/Todo */}
       <List
         todo={todo}
         setEdited={setEdited}
