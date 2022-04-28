@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <ScrollView style={styles.container} keyboardShouldPersistTaps={'handled'}>
       <Text style={styles.head}>Task App</Text>
-      {/* input  */}
+      {/* input  of title*/}
       <View>
         <TextInput
           value={title}
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   head: {
-    fontSize: 28,
+    fontSize: 26,
     textAlign: 'center',
     fontWeight: '600',
     marginBottom: 20,
